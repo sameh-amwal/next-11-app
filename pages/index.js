@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import AmwalMagentoReactButton from 'amwal-magento-react-button'
+
 
 export default function Home() {
   return (
@@ -15,6 +17,10 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <AmwalMagentoReactButton
+          baseUrl="https://store.amwal.tech/rest/V1"
+          triggerContext="cart"/>
 
         <p className={styles.description}>
           Get started by editing{' '}
