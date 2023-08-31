@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "amwal-magento-react-button": "^0.0.14",
+    "amwal-magento-react-button": "^0.0.16",
     "next": "^11.1.4",
     "next-transpile-modules": "^10.0.1",
     "react": "^17.0.2",

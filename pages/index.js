@@ -20,7 +20,10 @@ export default function Home() {
 
         <AmwalMagentoReactButton
           baseUrl="https://store.amwal.tech/rest/V1"
-          triggerContext="cart"/>
+          triggerContext="cart"
+          extraHeaders={{
+            'x-access-token': 'abc'
+          }}/>
 
         <p className={styles.description}>
           Get started by editing{' '}
