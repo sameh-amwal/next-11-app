@@ -23,7 +23,10 @@ export default function Home() {
           triggerContext="cart"
           extraHeaders={{
             'x-access-token': 'abc'
-          }}/>
+          }}
+          overrideQuoteId="737"
+          redirectURL="https://google.com"
+        />
 
         <p className={styles.description}>
           Get started by editing{' '}
